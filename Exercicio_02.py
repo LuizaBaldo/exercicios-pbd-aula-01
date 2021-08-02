@@ -1,0 +1,6 @@
+x1 = float(input("Insira o eixo x do plano 1: "))
+y1 = float(input("Insira o eixo y do plano 1: "))
+x2 = float(input("Insira o eixo x do plano 2: "))
+y2 = float(input("Insira o eixo y do plano 2: "))
+distancia = (((x2 - x1)**2) + ((y2 - y1)**2))**(0.5)
+print(f'A distancia entres os pontos ({x1}, {y1}) e ({x2}, {y2}) é {distancia:.5}')
