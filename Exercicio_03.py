@@ -1,0 +1,11 @@
+N = int(input("Insira um numero: "))
+print(f'1 x {N} = {N*1} \n'
+      f'2 x {N} = {N*2} \n'
+      f'3 x {N} = {N*3} \n'
+      f'4 x {N} = {N*4} \n'
+      f'5 x {N} = {N*5} \n'
+      f'6 x {N} = {N*6} \n'
+      f'7 x {N} = {N*7} \n'
+      f'8 x {N} = {N*8} \n'
+      f'9 x {N} = {N*9} \n'
+      f'10 x {N} = {N*10}')
